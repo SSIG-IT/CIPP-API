@@ -21,7 +21,7 @@
     "Id": "44a40668-ed71-403c-8c26-b32e320086ad",
     "Command": "Start-AuditLogPlannerV2",
     "Description": "Audit log V2 planner: create searches, download and process",
-    "Cron": "0 */15 * * * *",
+    "Cron": "0 0 * * * *",
     "Priority": 2,
     "RunOnProcessor": true,
     "PreferredProcessor": "auditlog",
